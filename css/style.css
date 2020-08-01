@@ -1,5 +1,5 @@
 *{
- 
+ /* outline: 1px solid black;*/
   margin :0 auto;
 }
 
@@ -102,6 +102,8 @@ main{
 
 .text{
   flex: 2;
+  width: 200px;
+  word-wrap: break-word;
 }
 
 .slider{
