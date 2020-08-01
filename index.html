@@ -6,6 +6,27 @@
   <link rel="icon" href="img/rinkuphoto.ico">
   <title>(TEST)学生チーム</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+
+    <style>
+      *{
+        list-style: none;
+      }
+      img{
+        width: 100%;
+        
+      }
+      ul{
+        width: 300px;
+        margin: 50px auto 0;
+      }
+
+      .slick-prev::before,
+      .slick-next::before{
+        color:black !important;
+      }
+    </style>
 </head>
 <body>
   <header>
@@ -21,10 +42,13 @@
 
       </div>
       <div class="sns_corner">
-        (SNS)
-        <a href="https://twitter.com/rinku_students?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @rinku_students</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <p>SNS</p>
+        <a href="https://twitter.com/rinku_students?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false" target="_blank">Twitter</a>
+
+        <a href="https://www.instagram.com/rinku_students/"class='instagram' target="_blank">Instagram</a>
       </div>
     </div>
+    <div id="intro_body">
     <div class="about_us">
       <p>りんくう花火・学生チームについて</p>
 
@@ -33,8 +57,27 @@
     </div>
     <div class="works">
         <p>具体的な活動内容</p>
+        <div class="text"></div>
 
+
+        <ul class="slider">
+          <li><img src="img/rinku/万歳ジャンプ.jpg" alt="no1"></li>
+          <li><img src="img/rinku/ステージ青空.jpg" alt="no2"></li>      
+          <li><img src="img/rinku/横青空.jpg" alt="no3"></li>
+          <li><img src="img/rinku/ホームページ素材？_200619_0012.jpg" alt="no4"></li>
+          <li><img src="img/rinku/ホームページ素材？_200619_0007.jpg" alt="no5"></li>
+          <li><img src="img/rinku/ホームページ素材？_200619_0009.jpg" alt="no6"></li>
+          <li><img src="img/rinku/ホームページ素材？_200619_0014.jpg" alt="no7"></li>
+          <li><img src="img/rinku/ホームページ素材？_200619_0015.jpg" alt="no8"></li>
+          <li><img src="img/rinku/ホームページ素材？_200619_0016.jpg" alt="no9"></li>
+          
+        </ul>
+
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/maina.js"></script>
       </div>
+    </div>
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfj_FV2A4iyKgL04srXp-5jnIWo6fgrdGHOXGoNzV-poCZGXw/viewform?embedded=true" width="640" height="695" frameborder="0" marginheight="0" marginwidth="0" class="form">読み込んでいます…</iframe>
   </main>
   <footer>
