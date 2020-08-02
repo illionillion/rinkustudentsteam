@@ -74,14 +74,14 @@ main{
   margin: 10px;
   background-color: rgb(255, 255, 255);
   word-wrap: break-word;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 
 
 .sentence{
   padding-left: 13px;
-  padding-top: 10px;
+  padding-top: 7px;
 }
 
 .sns_corner{
@@ -98,7 +98,7 @@ main{
   margin-top: 0;
   background-color: rgb(255, 255, 255);
   word-wrap: break-word;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .works{
@@ -114,7 +114,7 @@ main{
   flex: 2;
   width: 200px;
   word-wrap: break-word;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .slider{
