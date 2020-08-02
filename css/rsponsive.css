@@ -1,0 +1,70 @@
+@media screen and (max-width: 430px){
+  body{
+    width: auto;
+    
+  }
+
+  header{
+    width: auto;
+  }
+
+  .logo{
+    width: 80px;
+    padding: 5px;
+  }
+  .photo{
+    width: 100%;
+    margin: auto;
+  }
+
+  header h1{
+    font-size: 135%;
+    padding-left: 0;
+  }
+main{
+  width: auto;
+  text-align: center;
+}
+
+.intro_head{
+  width: auto;
+  height: 300px;
+  display: block;
+}
+
+.catchphrase{
+  height: 100px;
+}
+
+.sns_corner{
+  height: 160px;
+  padding-bottom: 10px;
+}
+
+
+
+.works{
+  height: 400px;
+  word-wrap: break-word;
+}
+
+.text{
+
+}
+
+.works_text{
+
+}
+
+.form{
+  width: auto;
+  height: 600px;
+}
+
+iframe{
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+}
