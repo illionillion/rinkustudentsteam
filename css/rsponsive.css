@@ -39,6 +39,7 @@ main{
 
 .sns_corner{
   height: 160px;
+  padding-top: 2px;
   padding-bottom: 10px;
 }
 
@@ -52,11 +53,12 @@ main{
   "slider"
   /auto
   !important;
+  word-break: break-all;
 }
 
 .text{
   grid-area: text;
-  width: 310px;
+  width: auto;
   word-wrap: break-word;
   overflow-y: auto;
 }
@@ -67,6 +69,7 @@ main{
 }*/
 
 .slider{
+  width: 280px;
   grid-area: slider;
   margin: 0 auto;
   padding: 0;
@@ -85,5 +88,12 @@ iframe{
 }
 
 
+
+}
+@media screen and (max-width: 330px){
+
+  .text{
+    width: 270px;
+  }
 
 }
