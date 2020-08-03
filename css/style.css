@@ -82,6 +82,7 @@ main{
 .sentence{
   padding-left: 13px;
   padding-top: 7px;
+  text-align: left;
 }
 
 .sns_corner{
