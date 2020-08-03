@@ -25,6 +25,7 @@ main{
   height: auto;
   text-align: center;
   padding-bottom: 50px;
+  background-color: rgba(83, 215, 255, 0.5);
 }
 
 .intro_head{
