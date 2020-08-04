@@ -90,6 +90,8 @@ main{
   margin: 10px;
   text-align: center;
   background-color: rgb(255, 255, 255);
+  word-wrap: break-word;
+  overflow-y: auto;
 }
 
 .about_us{
