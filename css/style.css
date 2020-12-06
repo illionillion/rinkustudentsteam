@@ -84,6 +84,8 @@ main{
   padding-left: 13px;
   padding-top: 7px;
   text-align: left;
+  /* line-height: 16px; */
+  letter-spacing: 2px;
 }
 
 .sns_corner{
